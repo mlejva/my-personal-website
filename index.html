@@ -3,41 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vasek Mlejnsky</title>
+    <title>Personal Website</title>
+    <link href="tailwind.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-900 text-white text-left">
-    <div class="container mx-auto p-6">
-        <div class="flex items-center">
-            <img src="assets/images/profile.jpg" alt="Profile Picture" class="rounded-full h-24 w-24">
-            <div class="ml-6">
-                <h1 id="name" class="text-2xl font-bold">Vasek Mlejnsky</h1>
-                <p id="startup" class="text-sm">Founder of e2b</p>
-            </div>
-        </div>
-        <div class="mt-6">
-            <h2 class="text-xl font-bold">Connect with me</h2>
-            <div class="flex mt-2">
-                <a href="https://twitter.com/mlejva" id="twitter" class="mr-4 border border-gray-600 p-2 rounded">
-                    <img src="assets/images/twitter_logo.png" alt="Twitter Logo">
-                </a>
-                <a href="https://linkedin.com/in/mlejva" id="linkedin" class="mr-4 border border-gray-600 p-2 rounded">
-                    <img src="assets/images/linkedin_logo.png" alt="LinkedIn Logo">
-                </a>
-                <a href="https://github.com/mlejva" id="github" class="border border-gray-600 p-2 rounded">
-                    <img src="assets/images/github_logo.png" alt="GitHub Logo">
-                </a>
-            </div>
-        </div>
-        <div class="mt-6" id="projects">
-            <h2 class="text-xl font-bold">My Projects</h2>
-            <div class="mt-2">
-                <a href="https://e2b.dev" class="block border border-gray-600 p-2 rounded">e2b.dev</a>
-                <a href="https://github.com/mlejva" class="block mt-2 border border-gray-600 p-2 rounded">github.com/mlejva</a>
-                <a href="https://usedevbook.com" class="block mt-2 border border-gray-600 p-2 rounded">usedevbook.com</a>
-            </div>
-        </div>
-    </div>
+<body class="bg-black text-white">
+    <header class="p-5">
+        <h1 class="text-4xl">Welcome to My Personal Website</h1>
+    </header>
+    <main class="p-5">
+        <section id="about" class="mb-5">
+            <h2 class="text-3xl">About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section id="projects" class="mb-5">
+            <h2 class="text-3xl">My Projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section id="contact" class="mb-5">
+            <h2 class="text-3xl">Contact Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+    </main>
+    <footer class="p-5">
+        <p>© 2022 My Personal Website</p>
+    </footer>
 </body>
 </html>

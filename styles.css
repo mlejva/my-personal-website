@@ -1,23 +1,26 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwind.css';
 
 body {
-    @apply bg-gray-900 text-white;
+    background-color: #121212;
+    color: #ffffff;
 }
 
-#name, #startup {
-    @apply text-2xl font-bold;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-#twitter, #linkedin, #github {
-    @apply text-lg;
+.header {
+    text-align: center;
+    padding: 20px 0;
 }
 
-#projects {
-    @apply text-base;
+.section {
+    margin-bottom: 20px;
 }
 
-a {
-    @apply border-b-2 border-gray-500;
+.footer {
+    text-align: center;
+    padding: 20px 0;
 }

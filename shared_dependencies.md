@@ -1,36 +1,15 @@
-1. Shared Variables:
-   - `name`: Vasek Mlejnsky
-   - `startup`: e2b
-   - `twitter`: @mlejva
-   - `linkedin`: mlejva
-   - `github`: mlejva
-   - `projects`: Array of project URLs ['https://e2b.dev', 'https://github.com/mlejva', 'https://usedevbook.com']
+1. "index.html": This is the main HTML file that will contain the structure of the website. It will include links to the "styles.css" and "tailwind.css" files. It will also contain id names for DOM elements that can be used for styling and scripting purposes.
 
-2. Shared Data Schemas:
-   - `userProfile`: Contains the user's name, startup, and social media handles
-   - `projects`: Contains the URLs of the user's projects
+2. "styles.css": This is the main CSS file that will contain custom styles for the website. It will use class and id names defined in the "index.html" file. It will also import the "tailwind.css" file to use its utility classes.
 
-3. Shared ID Names:
-   - `#name`: ID for the user's name
-   - `#startup`: ID for the user's startup
-   - `#twitter`: ID for the user's Twitter handle
-   - `#linkedin`: ID for the user's LinkedIn handle
-   - `#github`: ID for the user's GitHub handle
-   - `#projects`: ID for the user's projects
+3. "tailwind.css": This is the Tailwind CSS file that will contain utility classes for styling. These classes can be used in the "index.html" file and can be customized in the "styles.css" file.
 
-4. Shared Message Names:
-   - No shared message names as there is no JavaScript involved in this project.
+Shared Dependencies:
 
-5. Shared Function Names:
-   - No shared function names as there is no JavaScript involved in this project.
+1. HTML Element IDs: These are unique identifiers for HTML elements that can be used for styling and scripting purposes. They are defined in the "index.html" file and used in the "styles.css" file.
 
-6. Shared Assets:
-   - `profile.jpg`: User's profile picture
-   - `e2b_logo.png`: Logo of the user's startup
-   - `github_logo.png`: GitHub logo
-   - `linkedin_logo.png`: LinkedIn logo
-   - `twitter_logo.png`: Twitter logo
+2. CSS Class Names: These are identifiers for groups of HTML elements that share the same styles. They are defined in the "tailwind.css" file and used in the "index.html" and "styles.css" files.
 
-7. Shared Styles:
-   - `styles.css`: Contains the CSS styles for the website
-   - Tailwind CSS: A utility-first CSS framework used for styling the website.
+3. CSS Import: The "styles.css" file will import the "tailwind.css" file to use its utility classes. This is a dependency because the styles in the "styles.css" file depend on the classes defined in the "tailwind.css" file.
+
+4. HTML Link: The "index.html" file will link to the "styles.css" and "tailwind.css" files. This is a dependency because the styles applied to the HTML elements in the "index.html" file depend on the CSS files.
