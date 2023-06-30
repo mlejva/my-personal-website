@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-black text-white;
+}
+
+.dark-theme {
+  @apply bg-gray-800 text-gray-300;
+}
+
+.clean-style {
+  @apply border-gray-700;
+}
+
+.minimal-style {
+  @apply p-5;
+}
+
+.text-left {
+  @apply text-left;
+}
+
+.compact-text {
+  @apply leading-tight;
+}
