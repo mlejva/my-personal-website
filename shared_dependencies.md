@@ -1,19 +1,36 @@
-1. Tailwind CSS: This is a shared dependency across all the HTML and CSS files. It is a utility-first CSS framework that will be used for styling the website.
+1. Shared Variables:
+   - `name`: Vasek Mlejnsky
+   - `startup`: e2b
+   - `twitter`: @mlejva
+   - `linkedin`: mlejva
+   - `github`: mlejva
+   - `projects`: Array of project URLs ['https://e2b.dev', 'https://github.com/mlejva', 'https://usedevbook.com']
 
-2. Image Assets: The images "profile.jpg", "e2b_logo.png", "twitter_logo.png", "linkedin_logo.png", "github_logo.png" are shared dependencies as they will be used in the HTML file to display the user's profile picture, company logo, and social media icons.
+2. Shared Data Schemas:
+   - `userProfile`: Contains the user's name, startup, and social media handles
+   - `projects`: Contains the URLs of the user's projects
 
-3. HTML Elements: The following are the id names of the HTML elements that will be used in the "index.html" file:
-   - "name" for displaying the user's name
-   - "company" for displaying the user's company name
-   - "twitter" for linking to the user's Twitter profile
-   - "linkedin" for linking to the user's LinkedIn profile
-   - "github" for linking to the user's GitHub profile
+3. Shared ID Names:
+   - `#name`: ID for the user's name
+   - `#startup`: ID for the user's startup
+   - `#twitter`: ID for the user's Twitter handle
+   - `#linkedin`: ID for the user's LinkedIn handle
+   - `#github`: ID for the user's GitHub handle
+   - `#projects`: ID for the user's projects
 
-4. CSS Classes: The following are the class names that will be used in the "styles.css" file:
-   - "dark-theme" for applying the dark theme to the website
-   - "clean-style" for applying a clean and simple style to the website
-   - "minimal-style" for applying a minimal and professional style to the website
-   - "text-left" for aligning the text to the left
-   - "compact-text" for making the text compact
+4. Shared Message Names:
+   - No shared message names as there is no JavaScript involved in this project.
 
-Please note that since JavaScript is not being used, there are no shared dependencies related to exported variables, data schemas, JavaScript function names, or message names.
+5. Shared Function Names:
+   - No shared function names as there is no JavaScript involved in this project.
+
+6. Shared Assets:
+   - `profile.jpg`: User's profile picture
+   - `e2b_logo.png`: Logo of the user's startup
+   - `github_logo.png`: GitHub logo
+   - `linkedin_logo.png`: LinkedIn logo
+   - `twitter_logo.png`: Twitter logo
+
+7. Shared Styles:
+   - `styles.css`: Contains the CSS styles for the website
+   - Tailwind CSS: A utility-first CSS framework used for styling the website.

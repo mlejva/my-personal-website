@@ -3,25 +3,21 @@
 @import 'tailwindcss/utilities';
 
 body {
-  @apply bg-black text-white;
+    @apply bg-gray-900 text-white;
 }
 
-.dark-theme {
-  @apply bg-gray-800 text-gray-300;
+#name, #startup {
+    @apply text-2xl font-bold;
 }
 
-.clean-style {
-  @apply border-gray-700;
+#twitter, #linkedin, #github {
+    @apply text-lg;
 }
 
-.minimal-style {
-  @apply p-5;
+#projects {
+    @apply text-base;
 }
 
-.text-left {
-  @apply text-left;
-}
-
-.compact-text {
-  @apply leading-tight;
+a {
+    @apply border-b-2 border-gray-500;
 }
