@@ -1,23 +1,36 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
 body {
-    @apply bg-gray-900 text-white;
-}
-
-#name, #startup {
-    @apply text-2xl font-bold;
-}
-
-#twitter, #linkedin, #github {
-    @apply text-lg;
-}
-
-#projects {
-    @apply text-base;
+    background-color: #1a202c;
+    color: #a0aec0;
+    font-family: Arial, sans-serif;
 }
 
 a {
-    @apply border-b-2 border-gray-500;
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9f7aea;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
 }

@@ -1,36 +1,11 @@
-1. Shared Variables:
-   - `name`: Vasek Mlejnsky
-   - `startup`: e2b
-   - `twitter`: @mlejva
-   - `linkedin`: mlejva
-   - `github`: mlejva
-   - `projects`: Array of project URLs ['https://e2b.dev', 'https://github.com/mlejva', 'https://usedevbook.com']
+1. HTML Elements: The "index.html" file will contain all the HTML elements. These elements may have unique id names that are shared with the "styles.css" and "tailwind.css" files for styling purposes. 
 
-2. Shared Data Schemas:
-   - `userProfile`: Contains the user's name, startup, and social media handles
-   - `projects`: Contains the URLs of the user's projects
+2. CSS Classes and IDs: The "styles.css" and "tailwind.css" files will contain CSS classes and IDs that are shared with the "index.html" file. These classes and IDs are used to apply styles to the HTML elements.
 
-3. Shared ID Names:
-   - `#name`: ID for the user's name
-   - `#startup`: ID for the user's startup
-   - `#twitter`: ID for the user's Twitter handle
-   - `#linkedin`: ID for the user's LinkedIn handle
-   - `#github`: ID for the user's GitHub handle
-   - `#projects`: ID for the user's projects
+3. Tailwind CSS: The "tailwind.css" file is a dependency for the "index.html" and "styles.css" files. It provides utility classes that can be used to style the HTML elements.
 
-4. Shared Message Names:
-   - No shared message names as there is no JavaScript involved in this project.
+4. Link Color: The color of all links is specified as purple. This is a shared attribute between the "index.html" and "styles.css" files.
 
-5. Shared Function Names:
-   - No shared function names as there is no JavaScript involved in this project.
+5. Dark Theme: The website is supposed to have a dark, clean, and simple theme. This is a shared attribute between the "index.html", "styles.css", and "tailwind.css" files.
 
-6. Shared Assets:
-   - `profile.jpg`: User's profile picture
-   - `e2b_logo.png`: Logo of the user's startup
-   - `github_logo.png`: GitHub logo
-   - `linkedin_logo.png`: LinkedIn logo
-   - `twitter_logo.png`: Twitter logo
-
-7. Shared Styles:
-   - `styles.css`: Contains the CSS styles for the website
-   - Tailwind CSS: A utility-first CSS framework used for styling the website.
+6. CSS Properties: The "styles.css" and "tailwind.css" files will share common CSS properties like color, font-size, margin, padding, etc. These properties are used to style the HTML elements in the "index.html" file.
