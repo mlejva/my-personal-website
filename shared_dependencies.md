@@ -1,15 +1,11 @@
-1. "index.html": This is the main HTML file that will contain the structure of the website. It will include links to the "styles.css" and "tailwind.css" files. It will also contain id names for DOM elements that can be used for styling and scripting purposes.
+1. HTML Elements: The "index.html" file will contain all the HTML elements. These elements may have unique id names that are shared with the "styles.css" and "tailwind.css" files for styling purposes. 
 
-2. "styles.css": This is the main CSS file that will contain custom styles for the website. It will use class and id names defined in the "index.html" file. It will also import the "tailwind.css" file to use its utility classes.
+2. CSS Classes and IDs: The "styles.css" and "tailwind.css" files will contain CSS classes and IDs that are shared with the "index.html" file. These classes and IDs are used to apply styles to the HTML elements.
 
-3. "tailwind.css": This is the Tailwind CSS file that will contain utility classes for styling. These classes can be used in the "index.html" file and can be customized in the "styles.css" file.
+3. Tailwind CSS: The "tailwind.css" file is a dependency for the "index.html" and "styles.css" files. It provides utility classes that can be used to style the HTML elements.
 
-Shared Dependencies:
+4. Link Color: The color of all links is specified as purple. This is a shared attribute between the "index.html" and "styles.css" files.
 
-1. HTML Element IDs: These are unique identifiers for HTML elements that can be used for styling and scripting purposes. They are defined in the "index.html" file and used in the "styles.css" file.
+5. Dark Theme: The website is supposed to have a dark, clean, and simple theme. This is a shared attribute between the "index.html", "styles.css", and "tailwind.css" files.
 
-2. CSS Class Names: These are identifiers for groups of HTML elements that share the same styles. They are defined in the "tailwind.css" file and used in the "index.html" and "styles.css" files.
-
-3. CSS Import: The "styles.css" file will import the "tailwind.css" file to use its utility classes. This is a dependency because the styles in the "styles.css" file depend on the classes defined in the "tailwind.css" file.
-
-4. HTML Link: The "index.html" file will link to the "styles.css" and "tailwind.css" files. This is a dependency because the styles applied to the HTML elements in the "index.html" file depend on the CSS files.
+6. CSS Properties: The "styles.css" and "tailwind.css" files will share common CSS properties like color, font-size, margin, padding, etc. These properties are used to style the HTML elements in the "index.html" file.
